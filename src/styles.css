@@ -1,0 +1,93 @@
+body {
+  font-family: sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  margin: 8px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #7b4ddc;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #5e37b6;
+}
+
+input,
+select {
+  margin: 6px 0;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.grape-cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.grape {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.grape.filled {
+  background: #a166ff;
+  color: white;
+}
+
+.congrats {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  color: green;
+}
+
+.user-select {
+  margin-top: 30px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.add-form {
+  margin-top: 10px;
+}
+
+.dropdown-area {
+  margin-top: 10px;
+}
+
+.button-group {
+  margin-top: 20px;
+}
